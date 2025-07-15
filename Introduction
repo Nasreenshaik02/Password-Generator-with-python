@@ -1,0 +1,44 @@
+
+
+CHAPTER 2
+REQUIREMENTS
+
+System requirements:
+1 Requirements at developer's end:
+Hardware: operating system: MS Windows XP or Ubuntu
+Language: Python
+RAM: 512 MB
+Hard disk: 5GB
+Software: Python 3
+
+2 Requirements at client's end:
+Hardware
+Software
+
+
+CHAPTER 3 
+DESIGN
+1. Start
+2. Store all the characters as a list. Use the string module of Python to store them all.
+3. Ask the user to enter the length of the password.
+4. Shuffle the characters using random.shuffle method
+5. Initialize an empty list to store the password.
+6. Write a loop that iterates length times
+    - Pick a random character from all the characters using random.choice method
+    - Append the random character to the password
+7. Shuffle the resultant password list to make it random.
+8. Convert the password list to string using the join method.
+9. Print the password.
+
+The text in the image is as follows:
+
+RANDOM PASSWORD GENERATOR MRCET
+
+CHAPTER 4
+
+
+IMPLEMENTATION
+
+During the implementation process, developers must write enough comments inside the code so that if anybody starts working on the code later, he/she can understand what has already been written. Writing good comments is very important as all other documents, no matter how good they are, will be lost eventually. Ten years after the initial work, you may find only that information which is present inside the code in the form of comments.
+
+Development tools also play an important role in this phase of the project. Good development tools save a lot of time for the developers, as well as saving money in terms of improved productivity. The most important development tools for time saving are editors and debuggers. A good editor helps a developer to write code quickly. A good debugger helps make the written code operational in a short period. Before starting the coding process, you should spend some time choosing good development tools.
